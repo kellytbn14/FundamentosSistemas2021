@@ -36,4 +36,14 @@ public class Address {
     public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
     }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "streetAddress='" + streetAddress + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", postalCode='" + postalCode + '\'' +
+                '}';
+    }
 }

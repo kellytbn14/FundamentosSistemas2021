@@ -11,7 +11,8 @@ public class App {
     private static final String jsonFilePath = "src/main/resources/User.json";
 
     public static void main(String[] args) {
-
+        User user = jsonToUser();
+        System.out.println(user.toString());
     }
 
     static User jsonToUser(){
